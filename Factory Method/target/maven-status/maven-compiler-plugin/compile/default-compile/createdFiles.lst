@@ -1,0 +1,7 @@
+com\mycompany\factorymethod\Dialog.class
+com\mycompany\factorymethod\Button.class
+com\mycompany\factorymethod\WindowsDialog.class
+com\mycompany\factorymethod\WebDialog.class
+com\mycompany\factorymethod\FactoryMethod.class
+com\mycompany\factorymethod\HTMLButton.class
+com\mycompany\factorymethod\WindowsButton.class
