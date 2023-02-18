@@ -1,0 +1,5 @@
+com\mycompany\builderpattern\BuilderPattern.class
+com\mycompany\builderpattern\Car.class
+com\mycompany\builderpattern\CarBuilder.class
+com\mycompany\builderpattern\Builder.class
+com\mycompany\builderpattern\Director.class
