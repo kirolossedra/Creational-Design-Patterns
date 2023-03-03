@@ -7,18 +7,21 @@ class Builder{
     +void reset()
     +void BuildStepA()
     +void BuildStepB()
-    +void BuildStepC()
+    +void BuildStepZ()
 }
 
 class Director{
--Builder : builder
+-builder : Builder
 +void Director(Builder)
 +void ChangeBuilder(Builder)
 +void make(type)
 }
 
 class ConcreteBuilder1{
--Builder : builder
+-result : Product1
++void reset()
++void BuildStepB()
++void BuildStepZ()
 
 }
 
