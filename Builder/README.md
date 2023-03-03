@@ -33,7 +33,7 @@ class ConcreteBuilder2{
 + BuildStepA()
 + BuildStepB()
 + BuildStepZ()
-+ getResult() : Product2
++ getResult():Product2
 
 }
 
