@@ -3,7 +3,7 @@
 classDiagram
 
 
-<<interface>>class BankAccount{
+class BankAccount{
     +String owner
     +BigDecimal balance
     +deposit(amount)
