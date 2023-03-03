@@ -3,7 +3,7 @@
 classDiagram
 
 class Builder{
-<<interface>> Builder
+<<interface>> 
     +void reset()
     +void BuildStepA()
     +void BuildStepB()
