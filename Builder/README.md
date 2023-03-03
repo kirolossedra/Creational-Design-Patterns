@@ -26,4 +26,13 @@ class ConcreteBuilder1{
 
 }
 
+class ConcreteBuilder2{
+-result : Product2
++ reset()
++ BuildStepA()
++ BuildStepB()
++ BuildStepZ()
+
+}
+
 ```
