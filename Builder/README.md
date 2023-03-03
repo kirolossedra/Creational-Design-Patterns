@@ -2,7 +2,7 @@
 ```mermaid
 classDiagram
 
-
+class Builder{
 <<interface>> Builder
     +void reset()
     +void BuildStepA()
