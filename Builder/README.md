@@ -3,6 +3,9 @@
 classDiagram
 Builder ..|> ConcreteBuilder1
 Builder ..|> ConcreteBuilder2
+Product1 -- ConcreteBuilder1
+Product2 -- ConcreteBuilder2
+
 class Builder{
 <<interface>> 
     + reset()
@@ -38,5 +41,6 @@ class ConcreteBuilder2{
 
 }
 class Product1
+class Product2
 
 ```
