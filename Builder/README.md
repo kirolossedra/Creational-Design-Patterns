@@ -23,7 +23,7 @@ class ConcreteBuilder1{
 + BuildStepA()
 + BuildStepB()
 + BuildStepZ()
-+getResult : Product1
++getResult():Product1
 
 }
 
