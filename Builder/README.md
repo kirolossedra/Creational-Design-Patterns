@@ -5,7 +5,8 @@ Builder ..|> ConcreteBuilder1
 Builder ..|> ConcreteBuilder2
 ConcreteBuilder1 --> Product1
 ConcreteBuilder2 --> Product2
-
+Client --> Director
+class Client
 class Builder{
 <<interface>> 
     + reset()
