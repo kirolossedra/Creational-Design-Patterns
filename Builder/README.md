@@ -10,4 +10,11 @@ class Builder{
     +void BuildStepC()
 }
 
+class Director{
+-Builder : builder
++void Director(Builder)
++void ChangeBuilder(Builder)
++void make(type)
+}
+
 ```
