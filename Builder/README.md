@@ -4,24 +4,25 @@ classDiagram
 
 class Builder{
 <<interface>> 
-    +void reset()
-    +void BuildStepA()
-    +void BuildStepB()
-    +void BuildStepZ()
+    +reset()
+    +BuildStepA()
+    +BuildStepB()
+    +BuildStepZ()
 }
 
 class Director{
 -builder : Builder
-+void Director(Builder)
-+void ChangeBuilder(Builder)
-+void make(type)
++Director(Builder)
++ChangeBuilder(Builder)
++make(type)
 }
 
 class ConcreteBuilder1{
 -result : Product1
-+void reset()
-+void BuildStepB()
-+void BuildStepZ()
++reset()
++BuildStepA()
++BuildStepB()
++BuildStepZ()
 
 }
 
