@@ -1,7 +1,7 @@
 
 ```mermaid
 classDiagram
-
+ConcreteBuilder1 ..|> Builder
 class Builder{
 <<interface>> 
     + reset()
