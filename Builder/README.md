@@ -18,6 +18,7 @@ class Director{
 }
 
 class ConcreteBuilder1{
+-Builder : builder
 
 }
 
