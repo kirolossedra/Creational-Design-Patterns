@@ -6,6 +6,7 @@ Builder ..|> ConcreteBuilder2
 ConcreteBuilder1 --> Product1
 ConcreteBuilder2 --> Product2
 Client --> Director
+Client ..> ConcreteBuilder1
 class Client
 class Builder{
 <<interface>> 
