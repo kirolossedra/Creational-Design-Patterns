@@ -37,7 +37,6 @@ class ConcreteBuilder2{
 + getResult():Product2
 
 }
-class Product1{
-}
+class Product1
 
 ```
