@@ -3,11 +3,11 @@
 classDiagram
 
 
-interface BankAccount{
-    +String owner
-    +BigDecimal balance
-    +deposit(amount)
-    +withdrawal(amount)
+<<interface>> Builder
+    +void reset()
+    +void BuildStepA()
+    +void BuildStepB()
+    +void BuildStepC()
 }
 
 ```
