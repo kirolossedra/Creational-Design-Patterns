@@ -23,6 +23,7 @@ class ConcreteBuilder1{
 + BuildStepA()
 + BuildStepB()
 + BuildStepZ()
++getResult : Product1
 
 }
 
@@ -32,6 +33,7 @@ class ConcreteBuilder2{
 + BuildStepA()
 + BuildStepB()
 + BuildStepZ()
++ getResult() : Product2
 
 }
 
